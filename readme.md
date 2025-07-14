@@ -67,7 +67,8 @@ npm start
 
 ## API Overview
 
--`POST /users/register`: Registers a new user and returns a token -`POST /users/login`: Logs in an existing user and returns a token -`POST /users/logout`: Logs out the user by clearing the cookie -`POST /todos`: Returns a list of todos (with optional search and pagination) -`GET /todos`: Creates a new todo -`PUT /todos/:id`: Updates a todo -`DELETE /todos/:id`: Deletes a todo
+- `POST /users/register`: Registers a new user and returns a token
+- `POST /users/login`: Logs in an existing user and returns a token -`POST /users/logout`: Logs out the user by clearing the cookie -`POST /todos`: Returns a list of todos (with optional search and pagination) -`GET /todos`: Creates a new todo -`PUT /todos/:id`: Updates a todo -`DELETE /todos/:id`: Deletes a todo
 
 Example request with query parameters:
 
